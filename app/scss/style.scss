@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.test {
+    text-align: center;
+    color: red;
+    font-size: 60px;
+}
