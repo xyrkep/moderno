@@ -50,9 +50,9 @@ body {
 .title {
     text-align: center;
     color: $bg;
+    @include f700;
     font-size: 36px;
     line-height: 60px;
-    font-weight: 700;
     margin-bottom: 30px;
 }
 
