@@ -1970,8 +1970,107 @@
     }
 }
 
-
 //end product-one
+//start page 404
+
+.page-404__wrapper,
+.about__wrapper {
+    border: 1px solid #d7d7d7;
+    background-color: #fff;
+    margin-bottom: 150px;
+}
+
+.page-404__head,
+.about__head {
+    font-size: 24px;
+    color: #444;
+    padding: 23px 27px;
+    @include f500;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.page-404__inner {
+    text-align: center;
+    background-color: $green;
+    color: #fff;
+}
+
+.page-404__404 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300px;
+    font-weight: 800;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    line-height: 300px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        background-image: url(../img/404/404-img.png);
+        width: 150px;
+        height: 292px;
+        margin-left: 20px;
+    }
+}
+
+.page-404__title {
+    margin-bottom: 30px;
+    @include f300;
+    font-size: 30px;
+}
+
+.page-404__text {
+    max-width: 501px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.page-404__link {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 30px 16px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+//end page 404
+//start about page
+
+.about__inner {
+    padding: 0 50px;
+}
+
+.about__box {
+    h3 {
+        font-size: 20px;
+        @include f700;
+        color: #444;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+//end about page
+
+
+
+
+
+
+
+
 
 
 
