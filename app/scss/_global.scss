@@ -107,6 +107,7 @@ body {
             }
 
             &:last-child {
+
                 a,
                 span {
                     color: $bg;
@@ -119,9 +120,11 @@ body {
         }
     }
 }
+
 .angle-right {
     position: relative;
     padding-left: 15px;
+
     &::before {
         content: "\f105";
         font-family: 'icomoon';
