@@ -2096,6 +2096,14 @@
 
 .contact__info-item {
     margin-bottom: 30px;
+
+    a {
+        transition: all 0.3s;
+
+        &:hover {
+            color: $green;
+        }
+    }
 }
 
 .contact__info-title {
@@ -2191,6 +2199,11 @@
         padding: 18px;
         width: 190px;
         cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
 }
 
